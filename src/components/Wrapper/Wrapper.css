@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Arima+Madurai|Nixie+One');
+
+.font-headline{
+    font-family: 'Arima Madurai', cursive;
+}
+
+body{
+    font-family: 'Nixie One', sans-serif;
+}

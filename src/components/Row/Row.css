@@ -1,0 +1,42 @@
+.bg-grad{
+    background: #C6FFDD;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #f7797d, #FBD786, #C6FFDD);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #f7797d, #FBD786, #C6FFDD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width:100%;
+}
+
+.row{
+    width: 60%;
+    margin:auto;
+}
+
+.row-shake {
+    /* Start the shake animation and make the animation last for 0.5 seconds */
+    animation: shake .55s; 
+    /* When the animation is finished, start again */
+    animation-iteration-count: 1; 
+}
+
+@keyframes shake {
+    0% { transform: translate(7px, 0px) }
+    15% { transform: translate(-7px, 0px) }
+    30% { transform: translate(7px, 0px) }
+    45% { transform: translate(-7px, 0px) }
+    60% { transform: translate(7px, 0px) }
+    75% { transform: translate(-7px, 0px) }
+    90% { transform: translate(7px, 0px) }
+    100% { transform: translate(0px, 0px) }
+   
+}
+
+@media screen and (max-width: 992px) {
+    .row{
+        width: 75%;
+    }
+  }
+
+@media screen and (max-width: 768px) {
+    .row{
+        width: 100%;
+    }
+  }

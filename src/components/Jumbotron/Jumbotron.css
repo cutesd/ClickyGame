@@ -1,0 +1,23 @@
+
+.jumbotron {
+    margin:0;
+    padding: 8rem 0;
+    color: floralwhite;
+    /* background-color: #703C76; */
+    background: #f7797d;  /* fallback for old browsers */
+    background: 
+        -webkit-linear-gradient(to top, #f7797d, #FBD786, #C6FFDD),
+         url(/assets/images/intersection.png);  /* Chrome 10-25, Safari 5.1-6 */
+    background: 
+        linear-gradient(to top, #f7797d, #FBD786, #C6FFDD),
+        url(/assets/images/intersection.png); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-blend-mode: exclusion;
+    /*
+    background-image: url(/assets/images/curls.png);
+    background-blend-mode: difference;
+    */
+}
+
+.jumbotron h1{
+    font-size: 4rem;
+}

@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "name": "luke",
+        "image": "/assets/images/luke.jpg"
+    },
+    {
+        "id": 2,
+         "name": "leia",
+        "image": "/assets/images/leia.jpg"
+    },
+    {
+        "id": 3,
+         "name": "boba",
+        "image": "/assets/images/boba.jpg"
+    },
+    {
+        "id": 4,
+         "name": "yoda",
+        "image": "/assets/images/yoda.jpg"
+    },
+    {
+        "id": 5,
+         "name": "R2",
+        "image": "/assets/images/R2.jpg"
+    },
+    {
+        "id": 6,
+         "name": "jabba",
+        "image": "/assets/images/jabba.jpg"
+    },
+    {
+        "id": 7,
+         "name": "chewy",
+        "image": "/assets/images/chewy.jpg"
+    },
+    {
+        "id": 8,
+         "name": "darth",
+        "image": "/assets/images/darth.jpg"
+    },
+    {
+        "id": 9,
+         "name": "emperor",
+        "image": "/assets/images/emperor.jpg"
+    },
+    {
+        "id": 10,
+         "name": "ewok",
+        "image": "/assets/images/ewok.jpg"
+    },
+    {
+        "id": 11,
+         "name": "obi",
+        "image": "/assets/images/obi.jpg"
+    },
+    {
+        "id": 12,
+         "name": "trooper",
+        "image": "/assets/images/trooper.jpg"
+    }
+]
