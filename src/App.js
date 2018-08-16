@@ -51,7 +51,7 @@ class App extends Component {
     if (_arr.indexOf(id) > -1) return this.wrongAnswer();
 
     const new_arr = [..._arr, id];
-    if (new_arr.length === 12) return this.youWin();
+    if (new_arr.length === 12) return this.youWin(new_arr);
     this.msgDisplay(new_arr, "You guessed correctly!");
     return new_arr;
   }
@@ -61,8 +61,8 @@ class App extends Component {
     return [];
   }
 
-  youWin = () => {
-    this.msgDisplay([], "You guessed them all!");
+  youWin = _arr => {
+    this.msgDisplay(_arr, "You guessed them all!");
     return [];
   }
 
